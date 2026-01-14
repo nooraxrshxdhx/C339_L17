@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <title>Title</title>
+  <title>Optimized Page</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Put your description here.">
+  <meta name="description" content="Optimized test page for Lighthouse performance.">
 </head>
-
 <body>
-  <img src="img\wallpaper.jpg">
+  <!-- fix: Added width/height and lazy loading to prevent layout shift and improve LCP -->
+  <!-- fix: Replaced JPG with compressed WebP format -->
+  <img 
+    src="img/wallpaper.webp" 
+    width="1200" 
+    height="800" 
+    loading="lazy" 
+    alt="Wallpaper image">
 </body>
-
 </html>
